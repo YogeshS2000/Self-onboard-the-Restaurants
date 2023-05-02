@@ -120,7 +120,7 @@ The Pincode field must be a valid integer of length 6 and must not be empty.
 
 The phoneNumber field must be a valid 10-digit phone number and must not be empty.
 
-The avgDailyTransactions field must be a valid integer of length 3.
+The avgDailyTransactions field must not be empty.
 
 If any of the validations fail, the API returns a 400 Bad Request error with an error message that describes the validation error.
 
